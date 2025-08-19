@@ -199,3 +199,24 @@ Amount: This indicates the total amount paid, which is important for both the us
 Payment Date: This specifies when the payment was made, helping you track financial transactions over time.
 
 Payment Method: This indicates how the payment was made, such as by credit card or PayPal, which can be important for accounting purposes.
+
+
+
+### API Security
+
+Authentication: This process verifies the identity of users or systems trying to access the API. Common methods include API keys, OAuth tokens, or username and password combinations.
+
+Authorization: Once a user is authenticated, authorization determines what actions they are allowed to perform. This can be managed through roles and permissions.
+
+Rate Limiting: This restricts the number of requests a user or system can make to the API within a certain time period, helping to prevent abuse or denial-of-service attacks
+
+
+Security is crucial in various areas of a project to protect sensitive information and maintain trust. Let’s go through some key areas:
+
+Protecting User Data: Ensuring the confidentiality and integrity of user data, such as personal information and passwords, is essential to prevent identity theft and maintain user trust.
+
+Securing Payments: Protecting payment information, such as credit card details, is critical to prevent financial fraud and ensure secure transactions.
+
+Preventing Unauthorized Access: Implementing authentication and authorization measures helps prevent unauthorized users from accessing sensitive information or performing actions they shouldn’t be able to.
+
+Ensuring Availability: Security measures like rate limiting and protection against denial-of-service attacks help ensure that the system remains available and responsive to legitimate users.
