@@ -130,3 +130,72 @@ payment_date
 payment_method
 
 Payments: Payments are made by clients for bookings. Each payment is linked to a specific booking.
+
+
+
+## Feature Breakdown
+
+###### User
+
+Username: This is a unique identifier for each user, allowing them to log in and be recognized by the system.
+
+First Name and Last Name: These fields store the user’s personal information, which can be used for display purposes or communication.
+
+Password: This is used to authenticate users and ensure that only authorized individuals can access their accounts.
+
+Email Address: This can be used for communication, password recovery, or as an alternative login method.
+
+Telephone Number: This can be used for communication or verification purposes.
+
+Role: This field specifies the user’s role, such as “customer” or “property owner,” and helps determine what actions they can perform in the system.
+
+
+###### Property
+User ID: This field links the property to the property owner, allowing you to identify who owns or manages the property.
+
+Address: This provides the location of the property, which is important for users looking to book a place to stay.
+
+Price Per Night: This indicates the cost of renting the property for one night, helping users compare different options.
+
+Number of Bedrooms and Bathrooms: These fields describe the size and layout of the property, which can be important factors for users when choosing a place to stay.
+
+Amenities: This field lists the features or services available at the property, such as Wi-Fi or a swimming pool, which can be attractive to potential renters.
+
+Description: This provides additional information about the property, allowing the owner to highlight unique features or details.
+
+Telephone Number: This can be used for communication between the property owner and potential renters
+
+
+###### Booking
+
+User ID: This field links the booking to the user who made the reservation, allowing you to track who is staying at the property.
+
+Property ID: This field links the booking to the specific property being rented, helping you manage availability and reservations.
+
+Start Date and End Date: These fields specify the duration of the booking, allowing you to calculate the total price and manage availability.
+
+Total Price: This indicates the cost of the booking, which is important for both the user and the property owner.
+
+
+###### Reviews
+
+User ID: This field links the review to the user who wrote it, allowing you to track who is providing feedback.
+
+Property ID: This field links the review to the specific property being reviewed, helping other users find relevant feedback.
+
+Rating: This provides a numerical score for the property, which can help other users quickly assess its quality.
+
+Comment: This allows users to provide detailed feedback about their experience, which can be helpful for both other users and the property owner.
+
+Date of Review: This indicates when the review was written, helping users assess the relevance and timeliness of the feedback.
+
+###### Payments
+User ID: This field links the payment to the user who made it, allowing you to track who has paid for a booking.
+
+Property ID: This field links the payment to the specific property being rented, helping you manage financial transactions.
+
+Amount: This indicates the total amount paid, which is important for both the user and the property owner.
+
+Payment Date: This specifies when the payment was made, helping you track financial transactions over time.
+
+Payment Method: This indicates how the payment was made, such as by credit card or PayPal, which can be important for accounting purposes.
