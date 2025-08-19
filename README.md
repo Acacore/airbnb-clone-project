@@ -1,3 +1,26 @@
+# Airbnb Clone – Project Overview
+#### Project Goals
+
+The project aims to develop a scalable property rental platform inspired by Airbnb. It will allow users to list accommodations, search for properties, make bookings, and manage reservations seamlessly. The focus is on building a robust backend, efficient API integrations, and a user-friendly frontend. Additionally, the project will showcase modern software engineering practices such as containerization, asynchronous task management, and CI/CD automation.
+
+#### Tech Stack
+
+Django: High-level Python web framework serving as the backbone for the application, handling business logic and API endpoints.
+
+Django REST Framework (DRF): Simplifies the creation and management of RESTful APIs for property listings, reservations, users, and payments.
+
+PostgreSQL: Relational database for structured storage of user profiles, listings, bookings, and reviews.
+
+GraphQL: Enables flexible, efficient, and precise data querying for complex relationships between users, properties, and bookings.
+
+Celery: Manages asynchronous tasks such as sending booking confirmations, processing payments, and handling background jobs.
+
+Redis: Used as a caching layer and message broker for Celery tasks, and also supports session management for faster response times.
+
+Docker: Ensures consistent development and deployment by containerizing the application and its dependencies.
+
+CI/CD Pipelines: Automates testing, integration, and deployment workflows, ensuring faster and more reliable software delivery.
+
 
 # airbnb-clone-project
 ALX Week 0 | Airbnb Clone Website
@@ -78,7 +101,7 @@ Containerization tool for consistent development and deployment environments.
 ###### CI/CD Pipelines:
 Automated pipelines for testing and deploying code changes.
 
-###### Graph SQL
+
 ## Database Design
 
 ###### Users:
