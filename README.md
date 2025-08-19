@@ -78,6 +78,7 @@ Containerization tool for consistent development and deployment environments.
 ###### CI/CD Pipelines:
 Automated pipelines for testing and deploying code changes.
 
+###### Graph SQL
 ## Database Design
 
 ###### Users:
@@ -202,15 +203,16 @@ Payment Method: This indicates how the payment was made, such as by credit card 
 
 
 
-### API Security
+## API Security
 
+###### Explanation
 Authentication: This process verifies the identity of users or systems trying to access the API. Common methods include API keys, OAuth tokens, or username and password combinations.
 
 Authorization: Once a user is authenticated, authorization determines what actions they are allowed to perform. This can be managed through roles and permissions.
 
 Rate Limiting: This restricts the number of requests a user or system can make to the API within a certain time period, helping to prevent abuse or denial-of-service attacks
 
-
+###### Importance
 Security is crucial in various areas of a project to protect sensitive information and maintain trust. Let’s go through some key areas:
 
 Protecting User Data: Ensuring the confidentiality and integrity of user data, such as personal information and passwords, is essential to prevent identity theft and maintain user trust.
@@ -220,3 +222,25 @@ Securing Payments: Protecting payment information, such as credit card details, 
 Preventing Unauthorized Access: Implementing authentication and authorization measures helps prevent unauthorized users from accessing sensitive information or performing actions they shouldn’t be able to.
 
 Ensuring Availability: Security measures like rate limiting and protection against denial-of-service attacks help ensure that the system remains available and responsive to legitimate users.
+
+
+## CI/CD Pipeline
+
+##### Brief Explanation
+CI/CD stands for Continuous Integration and Continuous Deployment. These pipelines are important for automating the process of testing, building, and deploying code changes.
+
+Continuous Integration (CI): This involves automatically testing and integrating code changes into a shared repository. It helps catch bugs early and ensures that the codebase remains stable.
+
+Continuous Deployment (CD): This involves automatically deploying code changes to production after they pass the necessary tests. It allows for faster and more reliable releases.
+
+##### Importance 
+CI/CD pipelines are important for projects because they improve code quality, reduce manual work, and enable faster delivery of new features and bug fixes. Does this help? Let me know if you have any other questions!
+
+##### Tools for CI/CD Pipeline
+GitHub Actions: Automates workflows directly within GitHub for tasks like testing, building, and deploying code.
+
+Docker: Manages containers to ensure consistent application performance across environments.
+
+Jenkins: An open-source automation server for building, testing, and deploying code.
+
+Travis CI: A continuous integration service for automatically building and testing code changes.
