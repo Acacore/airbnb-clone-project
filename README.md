@@ -77,3 +77,56 @@ Containerization tool for consistent development and deployment environments.
 
 ###### CI/CD Pipelines:
 Automated pipelines for testing and deploying code changes.
+
+## Database Design
+
+###### Users:
+username
+first_name
+last_name
+password
+username
+email_address
+telephone_number
+role
+
+Users: There are two types of users_clients and property_owners. Clients can book properties, make payments, and write reviews. Property owners can advertise their properties.
+
+###### Properties
+user_id
+address
+price_per_night
+number_of_bedrooms
+number_of_bathrooms
+amenities
+description
+telephone_number
+
+Properties: Properties are advertised by property owners. Each property can have multiple bookings and reviews.
+
+###### Bookings
+user_id
+property_id
+start_date
+end_date
+and total_price
+
+Bookings: A booking is made by a client for a specific property. Each booking can have an associated payment.
+
+###### Reviews
+user_id
+property_id
+rating
+comment
+date_of_review
+
+Reviews: Reviews are written by clients about properties or bookings.
+
+###### Payments
+user_id
+property_id
+amount
+payment_date
+payment_method
+
+Payments: Payments are made by clients for bookings. Each payment is linked to a specific booking.
