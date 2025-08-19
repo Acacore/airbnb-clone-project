@@ -49,3 +49,31 @@ A Test Automation Engineer builds and maintains automated testing frameworks to 
 
 A DevOps Engineer bridges the gap between development and operations teams by automating and streamlining the software delivery process. They design and maintain CI/CD pipelines to enable faster, more reliable releases while ensuring application stability. Collaborating with developers, system administrators, and operations staff, DevOps engineers oversee deployments, unify workflows, and create a culture of shared responsibility for continuous delivery and system performance.
 43431a4 (Team Roles and Responsibilities)
+
+
+
+## Technology Stack 
+
+###### Django:
+A high-level Python web framework used for building the RESTful API.
+
+###### Django REST Framework:
+Provides tools for creating and managing RESTful APIs.
+
+###### PostgreSQL:
+A powerful relational database used for data storage.
+
+###### GraphQL:
+Allows for flexible and efficient querying of data.
+
+##### Celery:
+For handling asynchronous tasks such as sending notifications or processing payments.
+
+###### Redis:
+Used for caching and session management.
+
+###### Docker:
+Containerization tool for consistent development and deployment environments.
+
+###### CI/CD Pipelines:
+Automated pipelines for testing and deploying code changes.
