@@ -48,4 +48,4 @@ A Test Automation Engineer builds and maintains automated testing frameworks to 
 ### DevOps Engineer
 
 A DevOps Engineer bridges the gap between development and operations teams by automating and streamlining the software delivery process. They design and maintain CI/CD pipelines to enable faster, more reliable releases while ensuring application stability. Collaborating with developers, system administrators, and operations staff, DevOps engineers oversee deployments, unify workflows, and create a culture of shared responsibility for continuous delivery and system performance.
->>>>>>> 43431a4 (Team Roles and Responsibilities)
+43431a4 (Team Roles and Responsibilities)
